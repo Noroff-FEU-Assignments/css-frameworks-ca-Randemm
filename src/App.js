@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container m-auto">
+      <div className="container flex-col space-y-8">
+        <div className="p-40 max-w-sm mx-auto bg-softbeige rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-softbeige rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-white border-2 border-smashpink rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-softbeige rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-softbeige rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-smashpink border-2 border-white rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-softbeige rounded-xl shadow-md flex items-center space-x-4"></div>
+        <div className="p-40 max-w-sm mx-auto bg-white border-2 border-smashpink rounded-xl shadow-md flex items-center space-x-4"></div>
+      </div>
     </div>
   );
 }
