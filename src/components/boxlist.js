@@ -2,9 +2,11 @@ import React from "react";
 
 const BoxList = () => {
   return (
-    <main className="max-w-8xl flex mx-auto">
-      <div className="my-20 flex flex-col justify-center space-y-8">
-        <h1 className="text-4xl text-secondary">Page heading</h1>
+    <main className="max-w-8xl flex mx-auto md:mx-32">
+      <div className="mb-20 flex flex-col justify-center space-y-8">
+        <h1 className="font-Open mt-12 mb-6 text-4xl text-secondary">
+          Page heading
+        </h1>
         <div className="flex flex-row flex-wrap justify-evenly gap-y-8 gap-x-8">
           <TailwindCSSContainerBeige />
           <TailwindCSSContainerBeige />

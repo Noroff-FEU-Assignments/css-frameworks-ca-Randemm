@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      sm: "440px",
-      // => @media (min-width: 440px) { ... }
+      sm: "360px",
+      // => @media (min-width: 300px) { ... }
 
       md: "576px",
       // => @media (min-width: 576px) { ... }
@@ -26,6 +26,9 @@ module.exports = {
         smashpink: "#C32C72",
         softbeige: "#F4F3EE",
         altgray: "#8D8D8D",
+      },
+      fontFamily: {
+        Open: ["'Open Sans', sans-serif;"],
       },
     },
   },
